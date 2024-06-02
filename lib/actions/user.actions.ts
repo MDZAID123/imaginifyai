@@ -37,7 +37,7 @@ export async function getUserById(userId:string){
 }
 
 //UPDATE
-export async function updatUser(clerkId:string,user:UpdateUserParams){
+export async function updateUser(clerkId:string,user:UpdateUserParams){
     try{
         await connectToDatabase();
 
